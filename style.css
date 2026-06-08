@@ -1,0 +1,305 @@
+/* ==========================================================================
+   BASE & RESET STYLES
+   ========================================================================== */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0b1320;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+/* ==========================================================================
+   NAVIGATION HEADER
+   ========================================================================== */
+header {
+    background-color: #060b13;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #1e2e4a;
+}
+header .logo {
+    font-size: 20px;
+    font-weight: 700;
+    color: #00d2ff;
+    letter-spacing: 0.5px;
+}
+header nav {
+    display: flex;
+    gap: 15px;
+}
+header nav a {
+    color: #a0aec0;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* ==========================================================================
+   MENTOR PROFILE SECTION (SUPER CHANGKANG STYLE)
+   ========================================================================== */
+.mentor-section {
+    padding: 50px 20px 30px 20px;
+    text-align: center;
+    background: radial-gradient(circle at top, #112240 0%, #0b1320 100%);
+}
+.mentor-glow-card {
+    background: rgba(17, 28, 46, 0.7);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(0, 210, 255, 0.25);
+    border-radius: 24px;
+    padding: 40px 25px;
+    max-width: 320px;
+    margin: 0 auto;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5), 0 0 25px rgba(0, 210, 255, 0.1);
+}
+.mentor-avatar-container {
+    width: 110px;
+    height: 110px;
+    background: #060b13;
+    border: 3px solid #00d2ff;
+    border-radius: 50%;
+    margin: 0 auto 20px auto;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 25px rgba(0, 210, 255, 0.35);
+}
+.mentor-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Thlalak kha bial chhungah mawi takin a in-trim ang */
+}
+.avatar-fallback {
+    font-size: 50px;
+}
+.welcome-text {
+    color: #00d2ff;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+}
+.mentor-name {
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0 0 6px 0;
+    letter-spacing: -0.5px;
+}
+.mentor-title {
+    background: linear-gradient(90deg, #00d2ff, #2ee575);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 0 15px 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.mentor-bio {
+    color: #a0aec0;
+    font-size: 13px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* ==========================================================================
+   HERO CALL TO ACTION SECTION
+   ========================================================================== */
+.hero-section {
+    padding: 35px 25px;
+    text-align: center;
+    background-color: #111c2e;
+    border-radius: 20px;
+    max-width: 320px;
+    margin: 0 auto 30px auto;
+    border: 1px solid #1e2e4a;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+.hero-section h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 12px 0;
+    color: #ffffff;
+}
+.hero-section p {
+    font-size: 14px;
+    color: #a0aec0;
+    margin-bottom: 25px;
+}
+.btn-whatsapp {
+    display: inline-block;
+    background: #2ee575;
+    color: #ffffff;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(46, 229, 117, 0.3);
+}
+
+/* ==========================================================================
+   COMPANY INFO SECTION
+   ========================================================================== */
+.company-section {
+    padding: 10px 20px 40px 20px;
+    text-align: center;
+}
+.company-card {
+    background: #111c2e;
+    border: 1px solid #1e2e4a;
+    padding: 35px 25px;
+    border-radius: 20px;
+    max-width: 320px;
+    margin: 0 auto;
+    text-align: left;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+.company-tag {
+    color: #00d2ff;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.company-card h2 {
+    font-size: 22px;
+    color: #ffffff;
+    margin: 0 0 15px 0;
+    font-weight: 700;
+}
+.company-card p {
+    font-size: 14px;
+    color: #a0aec0;
+    line-height: 1.6;
+    margin: 0 0 25px 0;
+}
+.company-stats {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #1e2e4a;
+    padding-top: 20px;
+}
+.stat-box h3 {
+    color: #2ee575;
+    font-size: 20px;
+    margin: 0 0 5px 0;
+    font-weight: 700;
+}
+.stat-box p {
+    color: #718096;
+    font-size: 12px;
+    margin: 0;
+}
+
+/* ==========================================================================
+   IDIGITALPREPRENEUR PRICING SECTION
+   ========================================================================== */
+.pricing {
+    background-color: #060b13; 
+    padding: 60px 20px; 
+    text-align: center;
+}
+.pricing h2 {
+    color: #00d2ff; 
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+}
+.pricing .section-sub {
+    color: #a0aec0;
+    font-size: 14px;
+    margin: 0 0 40px 0;
+}
+.pricing-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+}
+.idp-card {
+    background: #111c2e;
+    border: 1px solid #1e2e4a;
+    padding: 35px 25px;
+    width: 100%;
+    max-width: 320px;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.4);
+    text-align: left;
+    box-sizing: border-box;
+}
+.package-title {
+    color: #2ee575; 
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0 0 12px 0;
+}
+.package-desc {
+    color: #a0aec0;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+.price-section {
+    margin-bottom: 20px;
+}
+.mrp {
+    color: #718096;
+    font-size: 13px;
+    display: block;
+    margin-bottom: 2px;
+}
+.actual-price {
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 700;
+}
+.earning-badge {
+    background: rgba(46, 229, 117, 0.12);
+    color: #2ee575;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 25px;
+    border: 1px solid rgba(46, 229, 117, 0.2);
+}
+.idp-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.btn-enroll {
+    display: block;
+    background: linear-gradient(90deg, #00b4db, #0083b0); 
+    color: #ffffff;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 10px;
+}
+.btn-chat {
+    display: block;
+    background: #2ee575; 
+    color: #ffffff;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
